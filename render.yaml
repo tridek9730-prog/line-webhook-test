@@ -4,3 +4,8 @@ services:
     env: python
     buildCommand: ""
     startCommand: "python app.py"
+    envVars:
+      - key: LINE_CHANNEL_SECRET
+        value: 1bf0479f8751c319444a830f45473764
+      - key: LINE_CHANNEL_ACCESS_TOKEN
+        value: vbckaQPMFn5+Eg9ZHIYm50XCiyTaIGBHfEk5D5BRqBrLmOQnNh0q/q5OjszXMUzl+V4gXbjQGoKgGv/iKPhBbv QIrsYpg0rG5M8FrFabWqs6A1h0MONb18cEHiUPpov70/hqPbvVbVmWtsewsOOZEgdB04t89/1O/w1cDnyilFU=
